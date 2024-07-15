@@ -7,12 +7,359 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:fontFamily="monospace"
+        android:text="Encuesta Del Albergue"
+        android:textAlignment="center"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
+        android:layout_width="406dp"
+        android:layout_height="657dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P1"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edP1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="text"
+                android:text="@string/vacio"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P2"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edP2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:text="@string/vacio" />
+
+            <TextView
+                android:id="@+id/tvP3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P3"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edP3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:text="@string/vacio"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvP4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P4"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP4Perros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Perros"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP4Gatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Gatos"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP4Conejos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Conejos"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP4Otros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Pajaros"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edP4Otros"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="text"
+                android:text="Otro"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvP5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P5"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sprP5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/tvP6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P6"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sprP6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/tvP7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P7"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sprP7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/tvP8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P8"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP8Op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="@string/P8Op1"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP8Op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="@string/P8Op3"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP8Op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="@string/P8Op3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvP9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P9"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sprP9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/tvP10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P10"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edP10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="text"
+                android:text="@string/vacio" />
+
+            <TextView
+                android:id="@+id/tvP11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P11"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sprP11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/tvP12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P12"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Peluqueria"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Hospedaje"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Veterinaria"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Cafe de gatos"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Entrenamiento"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Paseo de Perros"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbP12Op7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="monospace"
+                android:text="Tienda de mascotas"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvP13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/P13"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edP13"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="text"
+                android:text="@string/vacio" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="monospace"
+                android:text="Guardar"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnEnviar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="monospace"
+                android:text="Enviar"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

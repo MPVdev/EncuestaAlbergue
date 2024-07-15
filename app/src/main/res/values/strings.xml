@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">EncuestaAlbergue</string>
+    <string name="vacio"></string>
+    <string name="P1">1. Ciudad de Origen:</string>
+    <string name="P2">2. ¿Qué edad tiene?</string>
+    <string name="P3">3. ¿Cuantas mascotas tiene?</string>
+    <string name="P4">4. ¿que mascotas tiene?</string>
+    <string name="P5">5. ¿que tipo de alimentación tiene su mascotas?</string>
+    <string-array name="alimentacion">
+        <item>Ninguna</item>
+        <item>Croquetas</item>
+        <item>Comida de Casa</item>
+        <item>Hibrido</item>
+    </string-array>
+    <string name="P6">6. ¿Estarias dispuesto a adoptar un animal rescatado de la calle?</string>
+    <string-array name="adopcionOp">
+        <item>Si</item>
+        <item>No</item>
+        <item>Lo he hecho</item>
+        <item>Lo volveria ha hacer</item>
+    </string-array>
+    <string name="P7">7. ¿con que frecuencia ve animales merodeando por las calles?</string>
+    <string-array name="frecuencia">
+        <item>Nunca</item>
+        <item>Casi nunca</item>
+        <item>A veces</item>
+        <item>Casi siempre</item>
+        <item>Siempre</item>
+    </string-array>
+    <string name="P8">8. de lo siguiente:</string>
+        <string name="P8Op1">Sus mascotas cuentan con todas las vacunas</string>
+        <string name="P8Op2">Sus mascotas estan esterilizadas</string>
+        <string name="P8Op3">Sus mascotas han sufrido enfermedades o lesiones graves</string>
+    <string name="P9">9. ¿Ha visto algun centro de cuidado animal?</string>
+    <string-array name="Op">
+        <item>Si</item>
+        <item>No</item>
+        <item>Prefiero no responder</item>
+    </string-array>
+    <string name="P10">10. ¿Estaria de acuerdo con la apertura de un albergue y clinica animal en la ciudad? ¿Porque?</string>
+    <string name="P11">11. ¿Participarias como voluntario en un albergue de mascotas?</string>
+    <string name="P12">12. ¿Cree q son viable los siguientes servicios dentro de un albergue?</string>
+    <string name="P13">13. ¿Qué servicio cree que podria brindar un albergue de mascotas?</string>
 </resources>

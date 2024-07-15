@@ -33,8 +33,8 @@
         <string name="P8Op3">Sus mascotas han sufrido enfermedades o lesiones graves</string>
     <string name="P9">9. ¿Ha visto algun centro de cuidado animal?</string>
     <string-array name="Op">
-        <item>Si</item>
         <item>No</item>
+        <item>Si</item>
         <item>Prefiero no responder</item>
     </string-array>
     <string name="P10">10. ¿Estaria de acuerdo con la apertura de un albergue y clinica animal en la ciudad? ¿Porque?</string>

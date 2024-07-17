@@ -134,8 +134,8 @@
                 android:layout_height="60dp"
                 android:ems="10"
                 android:fontFamily="monospace"
+                android:hint="Otros"
                 android:inputType="text"
-                android:text="Otro"
                 android:textSize="20sp" />
 
             <TextView
@@ -200,7 +200,7 @@
                 android:layout_height="wrap_content"
                 android:checked="false"
                 android:fontFamily="monospace"
-                android:text="@string/P8Op3"
+                android:text="@string/P8Op2"
                 android:textSize="20sp" />
 
             <CheckBox

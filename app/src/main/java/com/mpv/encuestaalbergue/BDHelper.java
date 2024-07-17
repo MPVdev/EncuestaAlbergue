@@ -14,19 +14,19 @@ public class BDHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE Encuesta (" +
-                "P1 text NOT NULL," +
-                "P2 text NOT NULL," +
-                "P3 text NOT NULL," +
-                "P4 text NOT NULL," +
-                "P5 text NOT NULL," +
-                "P6 text NOT NULL," +
-                "P7 text NOT NULL," +
-                "P8 text NOT NULL," +
-                "P9 text NOT NULL," +
-                "P10 text NOT NULL," +
-                "P11 text NOT NULL," +
-                "P12 text NOT NULL," +
-                "P13 text NOT NULL)");
+                "P1 TEXT NOT NULL," +
+                "P2 INTEGER NOT NULL," +
+                "P3 INTEGER NOT NULL," +
+                "P4 TEXT NOT NULL," +
+                "P5 TEXT NOT NULL," +
+                "P6 TEXT NOT NULL," +
+                "P7 TEXT NOT NULL," +
+                "P8 TEXT NOT NULL," +
+                "P9 TEXT NOT NULL," +
+                "P10 TEXT NOT NULL," +
+                "P11 TEXT NOT NULL," +
+                "P12 TEXT NOT NULL," +
+                "P13 TEXT NOT NULL)");
     }
 
 
@@ -35,9 +35,5 @@ public class BDHelper extends SQLiteOpenHelper {
         //CAMBIE LA VERSIÓN DE LA TABLA DE LA BDD
         db.execSQL("DROP TABLE Encuesta");
         onCreate(db);
-    }
-
-    public SQLiteDatabase onRead() {
-        return this.getReadableDatabase();
     }
 }
